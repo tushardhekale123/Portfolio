@@ -3,6 +3,15 @@ body {
 }
 h1 {
     color:rgb(234, 231, 4);
+    font-family:Verdana;
+
+    margin: top 50px;;
+    margin-left: 50px;
+
+    text-align: r;
+    border: 5px solid rgb(21, 1, 1);
+    border-radius: 20px;
+    padding-left: 20px;
 }
 button:hover{
     background-color:black
@@ -19,5 +28,10 @@ button{
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 106px;
+    
+}
+p {
+    font-size: 25px;
+    font-family: 'New';
 }
