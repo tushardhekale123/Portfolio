@@ -4,273 +4,478 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tushar Portfolio</title>
+    <title>Tushar | Java Full Stack Developer</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <header class="header">
+<header class="header">
 
-        <a href="#home" class="logo">Portfolio</a>
+    <a href="#" class="logo">
+        Tushar
+    </a>
 
-        <nav class="navbar">
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+</header>
 
-        </nav>
+<section class="hero" id="home">
 
-    </header>
+<div class="left">
 
-    <!-- Hero Section -->
+<h3>Hello, It's Me 👋</h3>
 
-    <section class="hero" id="home">
+<h1>
+Tushar Jitendra Dhekale
+</h1>
 
-        <div class="left">
+<h3>
+I'm a
+<span class="multiple-text"></span>
+</h3>
 
-            <h3>Hello, It's Me</h3>
+<p>
 
-            <h1>Tushar</h1>
+Passionate Java Full Stack Developer who loves building modern, responsive and user-friendly websites and applications using Java, HTML, CSS, JavaScript and MySQL.
 
-            <h3>And I'm a <span class="multiple-text"></span></h3>
+</p>
 
+<div class="buttons">
+
+<a href="#contact" class="btn1">
+<i class="fa-solid fa-paper-plane"></i>
+Hire Me
+</a>
+
+<a href="resume.pdf" download class="btn2">
+<i class="fa-solid fa-download"></i>
+Download Resume
+</a>
+
+</div>
+
+<div class="social-icons">
+
+<a href="https://www.linkedin.com/in/tushar-dhekale-a2b638270" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://github.com/tushardhekale123" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="mailto:tushardhekale884@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+<a href="tel:+918483951256">
+<i class="fa-solid fa-phone"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<img src="images/profile.jpg" alt="Profile">
+
+</div>
+
+</section>
+
+<!-- ==========================
+        ABOUT SECTION
+========================== -->
+
+<section class="about" id="about" data-aos="fade-up">
+
+    <div class="about-img">
+        <img src="images/profile.jpg" alt="About Image">
+    </div>
+
+    <div class="about-content">
+
+        <h2 class="heading">
+            About <span>Me</span>
+        </h2>
+
+        <h3>
+            Java Full Stack Developer
+        </h3>
+
+        <p>
+            Hello! I'm <strong>Tushar Jitendra Dhekale</strong>, a Final Year
+            Information Technology Engineering student from
+            Sipna College of Engineering & Technology, Amravati.
+        </p>
+
+        <p>
+            I enjoy building modern websites and software using Java,
+            HTML, CSS, JavaScript and MySQL.
+            I am continuously improving my problem solving and DSA skills.
+        </p>
+
+        <p>
+            My goal is to become a professional Software Engineer
+            and work on real-world applications that help people.
+        </p>
+
+        <a href="#projects" class="btn1">
+            View My Projects
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+        SKILLS
+========================== -->
+
+<section id="skills">
+
+    <h2 class="heading">
+        My <span>Skills</span>
+    </h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <i class="fa-brands fa-java"></i>
+            <h3>Java</h3>
             <p>
-                I am an Information Technology student passionate about
-                Java Development, Web Development and Software Engineering.
+                Core Java, OOP, Collections, Exception Handling,
+                Multithreading and JDBC.
             </p>
-
-            <div class="social-icons">
-
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-
-            </div>
-
-            <button class="btn1">Hire Me</button>
-            <button class="btn2">Download CV</button>
-
         </div>
 
-        <div class="right">
-
-            <img src="images/profile.jpg" alt="Profile">
-
-        </div>
-
-    </section>
-
-    <!-- About -->
-
-    <section class="about" id="about">
-
-        <div class="about-img">
-
-            <img src="images/profile.jpg" alt="Profile">
-
-        </div>
-
-        <div class="about-content">
-
-            <h2>About <span>Me</span></h2>
-
-            <h3>Java Developer</h3>
-
+        <div class="skill-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>DSA</h3>
             <p>
-
-                Hello! My name is Tushar.
-
-                I am an Information Technology student.
-
-                I enjoy Java Programming,
-
-                Web Development,
-
-                HTML,
-
-                CSS,
-
-                JavaScript,
-
-                and MySQL.
-
+                Arrays, Strings, Linked List, Stack,
+                Queue, Searching, Sorting and Recursion.
             </p>
-
-            <button class="btn1">Read More</button>
-
         </div>
 
-    </section>
-
-    <!-- Skills -->
-
-    <section id="skills">
-
-        <h2>My <span>Skills</span></h2>
-
-        <div class="skill">
-
-            <div class="skill-name">
-
-                <span>HTML</span>
-
-                <span>95%</span>
-
-            </div>
-
-            <div class="progress">
-
-                <div class="progress-bar html"></div>
-
-            </div>
-
+        <div class="skill-box">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML5</h3>
+            <p>
+                Semantic HTML, Forms, Tables,
+                Responsive Layouts.
+            </p>
         </div>
 
-        <div class="skill">
-
-            <div class="skill-name">
-
-                <span>CSS</span>
-
-                <span>90%</span>
-
-            </div>
-
-            <div class="progress">
-
-                <div class="progress-bar css"></div>
-
-            </div>
-
+        <div class="skill-box">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS3</h3>
+            <p>
+                Flexbox, Grid,
+                Animations,
+                Glassmorphism,
+                Responsive Design.
+            </p>
         </div>
 
-        <div class="skill">
-
-            <div class="skill-name">
-
-                <span>JavaScript</span>
-
-                <span>80%</span>
-
-            </div>
-
-            <div class="progress">
-
-                <div class="progress-bar javascript"></div>
-
-            </div>
-
+        <div class="skill-box">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>
+                DOM,
+                Events,
+                API,
+                Interactive Websites.
+            </p>
         </div>
 
-        <div class="skill">
-
-            <div class="skill-name">
-
-                <span>Java</span>
-
-                <span>92%</span>
-
-            </div>
-
-            <div class="progress">
-
-                <div class="progress-bar java"></div>
-
-            </div>
-
+        <div class="skill-box">
+            <i class="fa-solid fa-database"></i>
+            <h3>MySQL</h3>
+            <p>
+                Database Design,
+                CRUD Operations,
+                SQL Queries.
+            </p>
         </div>
 
-    </section>
-
-    <!-- Projects -->
-
-    <section id="projects">
-
-        <h2>Latest <span>Projects</span></h2>
-
-        <div class="project-container">
-
-            <div class="project-box">
-
-                <h3>Doctor Appointment System</h3>
-
-                <p>
-                    Online Appointment Booking using
-                    HTML CSS JavaScript Java and MySQL.
-                </p>
-
-            </div>
-
-            <div class="project-box">
-
-                <h3>Portfolio Website</h3>
-
-                <p>
-                    Personal Responsive Portfolio using
-                    HTML CSS JavaScript.
-                </p>
-
-            </div>
-
-            <div class="project-box">
-
-                <h3>Student Management</h3>
-
-                <p>
-                    Java + MySQL CRUD Application.
-                </p>
-
-            </div>
-
+        <div class="skill-box">
+            <i class="fa-brands fa-git-alt"></i>
+            <h3>Git</h3>
+            <p>
+                Version Control,
+                Branching,
+                Collaboration.
+            </p>
         </div>
 
-    </section>
+        <div class="skill-box">
+            <i class="fa-brands fa-github"></i>
+            <h3>GitHub</h3>
+            <p>
+                Repository Management,
+                Hosting,
+                Team Collaboration.
+            </p>
+        </div>
 
-    <!-- Contact -->
+    </div>
 
-    <section id="contact">
+</section>
 
-        <h2>Contact <span>Me</span></h2>
+<!-- ==========================
+        PROJECTS
+========================== -->
 
-        <form class="contact-form">
+<section id="projects">
 
-            <input type="text" placeholder="Your Name">
+<h2 class="heading">
+Latest <span>Projects</span>
+</h2>
 
-            <input type="email" placeholder="Your Email">
+<div class="project-container">
 
-            <input type="text" placeholder="Subject">
+<div class="project-box">
 
-            <textarea placeholder="Your Message"></textarea>
+<h3>Doctor Appointment System</h3>
 
-            <button class="btn1">Send Message</button>
+<p>
+An online appointment booking system developed using
+Java, MySQL, HTML, CSS and JavaScript.
+Patients can book appointments and doctors can manage schedules.
+</p>
 
-        </form>
+<div class="project-btn">
 
-    </section>
+<a href="#" class="btn1">
+Live Demo
+</a>
 
-    <!-- Footer -->
+<a href="https://github.com/tushardhekale123"
+target="_blank"
+class="btn2">
+GitHub
+</a>
 
-    <footer>
+</div>
 
-        <p>© 2026 Tushar | All Rights Reserved.</p>
+</div>
 
-    </footer>
+<div class="project-box">
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<h3>Personal Portfolio</h3>
 
-    <script src="script.js"></script>
+<p>
+A modern responsive portfolio website
+built using HTML, CSS and JavaScript
+with smooth animations.
+</p>
+
+<div class="project-btn">
+
+<a href="#" class="btn1">
+Live Demo
+</a>
+
+<a href="https://github.com/tushardhekale123"
+target="_blank"
+class="btn2">
+GitHub
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ==========================
+        CERTIFICATES
+========================== -->
+
+<section id="certificates">
+
+<h2 class="heading">
+My <span>Certificates</span>
+</h2>
+
+<div class="certificate-container">
+
+<div class="certificate-box">
+<i class="fa-solid fa-award"></i>
+<h3>Oracle AI Foundations Associate</h3>
+<p>Oracle Cloud</p>
+</div>
+
+<div class="certificate-box">
+<i class="fa-solid fa-shield-halved"></i>
+<h3>Cyber Security Fundamentals</h3>
+<p>Infosys Springboard</p>
+</div>
+
+<div class="certificate-box">
+<i class="fa-solid fa-cloud"></i>
+<h3>Google Cloud Foundations</h3>
+<p>Google Cloud</p>
+</div>
+
+<div class="certificate-box">
+<i class="fa-solid fa-microchip"></i>
+<h3>Quantum Computing</h3>
+<p>NPTEL</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ==========================
+        EDUCATION
+========================== -->
+
+<section id="education">
+
+<h2 class="heading">
+My <span>Education</span>
+</h2>
+
+<div class="education-container">
+
+<div class="education-box">
+<h3>B.E Information Technology</h3>
+<h4>2023 - 2027</h4>
+<p>Sipna College of Engineering & Technology Amravati</p>
+</div>
+
+<div class="education-box">
+<h3>Higher Secondary (HSC)</h3>
+<h4>2021 - 2023</h4>
+<h4>Maharashtra Board</h4>
+<p>Khamgaon</p>
+</div>
+
+<div class="education-box">
+<h3>Secondary School (SSC)</h3>
+<h4>2020 - 2021</h4>
+<h4>Maharashtra Board</h4>
+<p>Khamgaon</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ==========================
+        CONTACT
+========================== -->
+
+<section id="contact">
+
+<h2 class="heading">
+Contact <span>Me</span>
+</h2>
+
+<form class="contact-form">
+
+<input type="text"
+placeholder="Your Name"
+required>
+
+<input type="email"
+placeholder="Email Address"
+required>
+
+<input type="text"
+placeholder="Subject">
+
+<textarea
+rows="8"
+placeholder="Write Your Message..."
+required></textarea>
+
+<button class="btn1">
+<i class="fa-solid fa-paper-plane"></i>
+Send Message
+</button>
+
+</form>
+
+</section>
+
+<!-- ==========================
+        FOOTER
+========================== -->
+
+<footer>
+
+<div class="footer-icons">
+
+<a href="https://www.linkedin.com/in/tushar-dhekale-a2b638270" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://github.com/tushardhekale123" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="mailto:tushardhekale884@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+<a href="tel:+918483951256">
+<i class="fa-solid fa-phone"></i>
+</a>
+
+</div>
+
+<p>
+© 2026 Tushar Jitendra Dhekale.
+All Rights Reserved.
+</p>
+
+</footer>
+
+<!-- Scroll Button -->
+
+<a href="#home" class="top-btn">
+<i class="fa-solid fa-arrow-up"></i>
+</a>
+
+<!-- Libraries -->
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script src="script.js"></script>
+
+<script>
+
+AOS.init({
+duration:1000,
+once:true
+});
+
+</script>
 
 </body>
-
 </html>
