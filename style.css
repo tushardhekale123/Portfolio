@@ -919,3 +919,89 @@ bottom:20px;
 }
 
 }
+
+/* ==========================
+   MOBILE RESPONSIVE FIX
+========================== */
+
+@media (max-width:768px){
+
+    .header{
+        padding:15px 5%;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .logo{
+        font-size:32px;
+    }
+
+    .navbar{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:15px;
+    }
+
+    .navbar a{
+        font-size:16px;
+    }
+
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+        padding:150px 5% 60px;
+        gap:40px;
+    }
+
+    .left h1{
+        font-size:42px;
+    }
+
+    .left h3{
+        font-size:22px;
+    }
+
+    .left p{
+        font-size:16px;
+    }
+
+    .buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .btn1,
+    .btn2{
+        width:100%;
+        max-width:280px;
+        text-align:center;
+    }
+
+    .social-icons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .right img{
+        width:280px;
+        height:280px;
+    }
+
+    .about{
+        flex-direction:column;
+        text-align:center;
+        padding:80px 5%;
+    }
+
+    .about-img img{
+        width:260px;
+        height:260px;
+    }
+
+    section{
+        padding-left:5%;
+        padding-right:5%;
+    }
+}
