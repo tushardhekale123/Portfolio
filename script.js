@@ -1,7 +1,3 @@
-// =========================
-// Typed Animation
-// =========================
-
 new Typed(".multiple-text", {
     strings: [
         "Java Full Stack Developer",
@@ -15,19 +11,11 @@ new Typed(".multiple-text", {
     loop: true
 });
 
-// =========================
-// AOS
-// =========================
-
 AOS.init({
     duration: 1000,
     once: true,
     offset: 100
 });
-
-// =========================
-// Active Navbar
-// =========================
 
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".navbar a");
@@ -61,10 +49,6 @@ window.addEventListener("scroll", () => {
 
 });
 
-// =========================
-// Scroll To Top
-// =========================
-
 const topBtn = document.querySelector(".top-btn");
 
 window.addEventListener("scroll", () => {
@@ -81,10 +65,6 @@ window.addEventListener("scroll", () => {
 
 });
 
-// =========================
-// Smooth Scroll
-// =========================
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
     anchor.onclick = function (e) {
@@ -99,10 +79,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     };
 
 });
-
-// =========================
-// Floating Image
-// =========================
 
 const image = document.querySelector(".right img");
 
@@ -119,10 +95,6 @@ image.addEventListener("mouseleave", () => {
         "scale(1) rotate(0deg)";
 
 });
-
-// =========================
-// Mouse Glow
-// =========================
 
 const glow = document.createElement("div");
 
@@ -144,10 +116,6 @@ document.addEventListener("mousemove", e => {
 
 });
 
-// =========================
-// Hero Parallax
-// =========================
-
 document.addEventListener("mousemove", e => {
 
     const x = (window.innerWidth / 2 - e.pageX) / 40;
@@ -158,20 +126,10 @@ document.addEventListener("mousemove", e => {
 
 });
 
-// =========================
-// Loading Animation
-// =========================
-
 window.onload = () => {
 
     document.body.style.opacity = "1";
 
 };
 
-// =========================
-// Console
-// =========================
-
 console.log("🚀 Premium Portfolio Loaded Successfully");
-
-//
